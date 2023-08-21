@@ -20,3 +20,4 @@ go-cqhttp
 # windwos rc
 *.syso
 go-cqhttp.bat
+go-cqhttp.exe~
