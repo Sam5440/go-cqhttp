@@ -26,6 +26,8 @@ github.com/Sam5440/MiraiGo v0.0.0-20230821160131-88f7f91f0e68 h1:KlQXDvHTFukUHQ5
 github.com/Sam5440/MiraiGo v0.0.0-20230821160131-88f7f91f0e68/go.mod h1:jjQ/3LcI1D1HEqTgei0bJCjh0Wmo5cZwEBbPlcxiw+M=
 github.com/Sam5440/MiraiGo v0.0.0-20230821162453-4adaf5932739 h1:6Anw3bi9H26iEKDuxbm0trfHJRMfqj2/xkPtn8LN+m8=
 github.com/Sam5440/MiraiGo v0.0.0-20230821162453-4adaf5932739/go.mod h1:jjQ/3LcI1D1HEqTgei0bJCjh0Wmo5cZwEBbPlcxiw+M=
+github.com/Sam5440/MiraiGo v0.0.0-20230821163524-1c51142a0750 h1:CmQeLjWE1lKRIOFouLzJ+vZlSExpZfHbaN9ajTFNmx4=
+github.com/Sam5440/MiraiGo v0.0.0-20230821163524-1c51142a0750/go.mod h1:jjQ/3LcI1D1HEqTgei0bJCjh0Wmo5cZwEBbPlcxiw+M=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

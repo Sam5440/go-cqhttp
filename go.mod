@@ -31,7 +31,7 @@ require (
 require (
 	github.com/FloatTech/ttl v0.0.0-20220715042055-15612be72f5b // indirect
 	github.com/RomiChan/protobuf v0.1.1-0.20230204044148-2ed269a2e54d // indirect
-	github.com/Sam5440/MiraiGo v0.0.0-20230821162453-4adaf5932739 // indirect
+	github.com/Sam5440/MiraiGo v0.0.0-20230821163524-1c51142a0750 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fumiama/imgsz v0.0.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
