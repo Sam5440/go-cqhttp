@@ -147,8 +147,9 @@ func LoginInteract() {
 	}
 	// TODO 版本号
 	// 获得当前commit hash
-	commitHash := "hash=unknown\nupdate=2023年8月22日\nversion=" + base.Version
-	log.Info("-----------------\n企点QQ专用版本\nLink:https://github.com/Sam5440/go-cqhttp\n", commitHash)
+	buildInfo := "\nupdate=2023年8月22日01点49分--hash=unknown---version=" + base.Version + "\n----------------------------------------------"
+	// Link:https://github.com/Sam5440/go-cqhttp
+	log.Warn("-----------------\nSam企点QQ专用版本,请勿外传\n", buildInfo)
 	if base.Debug {
 		log.SetLevel(log.DebugLevel)
 		log.Warnf("已开启Debug模式.")
