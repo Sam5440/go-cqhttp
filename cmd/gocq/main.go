@@ -145,8 +145,10 @@ func LoginInteract() {
 			time.Sleep(time.Second * 5)
 		}
 	}
-
-	log.Info("当前版本:", base.Version)
+	// TODO 版本号
+	// 获得当前commit hash
+	commitHash := "hash=unknown\nupdate=2023年8月22日\nversion=" + base.Version
+	log.Info("-----------------\n企点QQ专用版本\nLink:https://github.com/Sam5440/go-cqhttp\n", commitHash)
 	if base.Debug {
 		log.SetLevel(log.DebugLevel)
 		log.Warnf("已开启Debug模式.")
@@ -188,7 +190,7 @@ func LoginInteract() {
 			log.Warn("签名服务器版本 <= 1.1.0 ，无法使用刷新 token 等操作，建议使用 1.1.6 版本及以上签名服务器")
 		}
 	} else {
-		log.Warnf("警告: 未配置签名服务器, 这可能会导致登录 45 错误码或发送消息被风控")
+		log.Info("(企点无需配置) 警告: 未配置签名服务器, 这可能会导致登录 45 错误码或发送消息被风控")
 	}
 
 	if base.Account.Encrypt {

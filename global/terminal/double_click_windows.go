@@ -47,7 +47,7 @@ func NoMoreDoubleClick() error {
 
 	ex, _ := os.Executable()
 	exPath := filepath.Base(ex)
-	_, err = f.WriteString("%Created by go-cqhttp. DO NOT EDIT ME!%\nstart cmd /K \"" + exPath + "\"")
+	_, err = f.WriteString("%Created by go-cqhttp. DO NOT EDIT ME!%\nstart cmd /K \"" + exPath + "\" --faststart")
 	if err != nil {
 		return errors.Errorf("写入go-cqhttp.bat失败: %v", err)
 	}
