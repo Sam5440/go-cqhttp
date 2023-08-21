@@ -16,9 +16,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mrs4s/MiraiGo/binary"
-	"github.com/Mrs4s/MiraiGo/message"
-	"github.com/Mrs4s/MiraiGo/utils"
+	"github.com/Sam5440/MiraiGo/binary"
+	"github.com/Sam5440/MiraiGo/message"
+	"github.com/Sam5440/MiraiGo/utils"
 	b14 "github.com/fumiama/go-base16384"
 	"github.com/segmentio/asm/base64"
 	log "github.com/sirupsen/logrus"
