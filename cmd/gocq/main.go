@@ -398,9 +398,9 @@ func LoginInteract() {
 	cli.AllowSlider = true
 	log.Infof("登录成功 欢迎使用: %v", cli.Nickname)
 	log.Info("开始加载好友列表...")
-	global.Check(cli.ReloadFriendList(), true)
-	log.Infof("共加载 %v 个好友.", len(cli.FriendList))
-	log.Infof("开始加载群列表...")
+	// global.Check(cli.ReloadFriendList(), true)
+	// log.Infof("共加载 %v 个好友.", len(cli.FriendList))
+	// log.Infof("开始加载群列表...")
 	global.Check(cli.ReloadGroupList(), true)
 	log.Infof("共加载 %v 个群.", len(cli.GroupList))
 	if uint(base.Account.Status) >= uint(len(allowStatus)) {
